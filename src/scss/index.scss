@@ -27,11 +27,6 @@ h1,
 h2 {
   font-weight: 300;
   line-height: 1.2;
-  margin: 10px 0;
-}
-
-p {
-  margin: 10px 0;
 }
 
 img {
@@ -41,4 +36,8 @@ img {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+:root {
+  --primary-color: #047aed;
 }

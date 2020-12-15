@@ -5,7 +5,7 @@ import "scss/Header.scss";
 
 function Header() {
   return (
-    <div className="navBar">
+    <header className="navBar">
       <div className="container">
         <h1 className="logo">Anderson</h1>
         <nav>
@@ -22,7 +22,7 @@ function Header() {
           </ul>
         </nav>
       </div>
-    </div>
+    </header>
   );
 }
 

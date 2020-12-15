@@ -1,0 +1,26 @@
+.stats {
+  padding-top: 100px;
+  max-width: 70%;
+  margin: 0 auto;
+  padding: 100px 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & .container > .stats_heading {
+    font-weight: 400;
+    text-align: center;
+  }
+
+  & .container > .text_grid_center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 30px;
+    text-align: center;
+  }
+}

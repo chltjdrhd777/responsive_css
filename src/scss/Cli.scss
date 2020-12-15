@@ -1,0 +1,30 @@
+.cli {
+  & .container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 0 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 30px;
+    text-align: center;
+
+    & .card {
+      background-color: azure;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 20%);
+      padding: 20px;
+      margin: 10px;
+      color: #333;
+    }
+  }
+}
